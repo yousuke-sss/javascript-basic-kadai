@@ -5,6 +5,9 @@ const holiday = ["正月","成人の日","建国記念日","天皇誕生日","�
  }
 
 // while
-while (holiday === "勤労感謝の日");
-console.log(holiday)
+let i = 0;
+while (i < holiday.length) {
+console.log(holiday[i])
+i++
+}
 
